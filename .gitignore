@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 触摸记录属隐私数据，不入库（保留 data/.gitkeep 占位）
+data/*.jsonl
+
+# 环境与密钥（.env 含 DeepSeek API Key，绝不能提交）
+.env
+.env.local
+*.key
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+*.tmp
